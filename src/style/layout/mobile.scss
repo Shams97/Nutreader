@@ -1,0 +1,35 @@
+@media (max-width: 1115px) {
+  .left {
+    width: 30%;
+  }
+  .right {
+    display: none;
+  }
+  #ourpicks-mobile {
+    display: block;
+  }
+
+  .middle {
+    margin-right: 0;
+    width: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  // keywords search
+  nav {
+    position: fixed;
+    bottom: 90%;
+  }
+  .left {
+    display: none;
+  }
+  .header {
+    display: block;
+    height: 10%;
+  }
+  .middle {
+    width: 100%;
+    display: block;
+  }
+}
